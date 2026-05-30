@@ -1,0 +1,399 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Nov  1 12:32:08 2025
+# Process ID         : 18472
+# Current directory  : D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent20792 D:\SATHISH VLSI Projects\AES-SHA-512 Advanced\project_1\project_1.xpr
+# Log file           : D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/vivado.log
+# Journal file       : D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1\vivado.jou
+# Running On         : DESKTOP-FCS0GRK
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 5 7530U with Radeon Graphics         
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16483 MB
+# Swap memory        : 12982 MB
+# Total Virtual      : 29466 MB
+# Available Virtual  : 5530 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Runs 36-271] Incremental checkpoint part, xc7a100tcsg324-1, does not match run part, xc7a200tffg1156-3.
+CRITICAL WARNING: [Runs 36-271] Incremental checkpoint part, xc7a100tcsg324-1, does not match run part, xc7a200tffg1156-3.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'spdif_0' generated file not found 'd:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.gen/sources_1/ip/spdif_0/spdif_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'spdif_0' generated file not found 'd:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.gen/sources_1/ip/spdif_0/spdif_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'spdif_0' generated file not found 'd:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.gen/sources_1/ip/spdif_0/spdif_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'spdif_0' generated file not found 'd:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.gen/sources_1/ip/spdif_0/spdif_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'spdif_0' generated file not found 'd:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.gen/sources_1/ip/spdif_0/spdif_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-2162] IP 'spdif_0' is locked:
+* Current project part 'xc7a200tffg1156-3' and the part 'xc7vx485tffg1157-1' used to customize the IP 'spdif_0' do not match.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:14 . Memory (MB): peak = 1749.355 ; gain = 192.879
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_hybrid'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/2025.1/Vivado/data/xsim/xsim.ini' copied to run dir:'D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_hybrid' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_hybrid_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/aes256_ip_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes256_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hybrid_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/sha3_512_ip_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha3_512_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/tb_hybrid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hybrid
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hybrid_behav xil_defaultlib.tb_hybrid xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hybrid_behav xil_defaultlib.tb_hybrid xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/aes256_ip_wrapper.v" Line 1. Module aes256_core doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/aes256_ip_wrapper.v" Line 1. Module aes256_core doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.aes256_core
+Compiling module xil_defaultlib.sha3_512_core
+Compiling module xil_defaultlib.hybrid_top
+Compiling module xil_defaultlib.tb_hybrid
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_hybrid_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_hybrid_behav -key {Behavioral:sim_1:Functional:tb_hybrid} -tclbatch {tb_hybrid.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_hybrid.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block 0:
+Data Out (AES decimal) = 0
+SHA3 Hash Chunks (decimal):
+Chunk 0: 0
+Chunk 1: 0
+Chunk 2: 0
+Chunk 3: 0
+------------------------------
+Block 1:
+Data Out (AES decimal) = 21528975894082904072868868434292362735
+SHA3 Hash Chunks (decimal):
+Chunk 0: 0
+Chunk 1: 0
+Chunk 2: 0
+Chunk 3: 0
+------------------------------
+Block 2:
+Data Out (AES decimal) = 21528975894082904072868868434292362734
+SHA3 Hash Chunks (decimal):
+Chunk 0: 21528975894082904072868868434292362735
+Chunk 1: 21528975894082904072868868434292362735
+Chunk 2: 21528975894082904072868868434292362735
+Chunk 3: 21528975894082904072868868434292362735
+------------------------------
+Block 3:
+Data Out (AES decimal) = 21528975894082904072868868434292362733
+SHA3 Hash Chunks (decimal):
+Chunk 0: 21528975894082904072868868434292362734
+Chunk 1: 21528975894082904072868868434292362734
+Chunk 2: 21528975894082904072868868434292362734
+Chunk 3: 21528975894082904072868868434292362734
+------------------------------
+Block 4:
+Data Out (AES decimal) = 21528975894082904072868868434292362732
+SHA3 Hash Chunks (decimal):
+Chunk 0: 21528975894082904072868868434292362733
+Chunk 1: 21528975894082904072868868434292362733
+Chunk 2: 21528975894082904072868868434292362733
+Chunk 3: 21528975894082904072868868434292362733
+------------------------------
+$finish called at time : 325 ns : File "D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/tb_hybrid.v" Line 436
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1780.609 ; gain = 24.695
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_hybrid_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1780.609 ; gain = 27.469
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a200tffg1156-3
+Top: hybrid_top
+INFO: [Device 21-403] Loading part xc7a200tffg1156-3
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26252
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 3460.723 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hybrid_top' [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v:369]
+INFO: [Synth 8-6157] synthesizing module 'aes256_core' [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/aes256_ip_wrapper.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'aes256_core' (0#1) [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/aes256_ip_wrapper.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sha3_512_core' [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/sha3_512_ip_wrapper.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sha3_512_core' (0#1) [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/sha3_512_ip_wrapper.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hybrid_top' (0#1) [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v:369]
+WARNING: [Synth 8-6014] Unused sequential element aes_ce_reg was removed.  [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v:421]
+WARNING: [Synth 8-6014] Unused sequential element sha_ce_reg was removed.  [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v:422]
+WARNING: [Synth 8-7129] Port key[255] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[254] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[253] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[252] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[251] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[250] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[249] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[248] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[247] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[246] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[245] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[244] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[243] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[242] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[241] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[240] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[239] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[238] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[237] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[236] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[235] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[234] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[233] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[232] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[231] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[230] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[229] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[228] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[227] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[226] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[225] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[224] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[223] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[222] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[221] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[220] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[219] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[218] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[217] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[216] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[215] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[214] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[213] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[212] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[211] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[210] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[209] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[208] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[207] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[206] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[205] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[204] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[203] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[202] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[201] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[200] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[199] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[198] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[197] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[196] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[195] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[194] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[193] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[192] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[191] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[190] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[189] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[188] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[187] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[186] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[185] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[184] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[183] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[182] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[181] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[180] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[179] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[178] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[177] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[176] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[175] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[174] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[173] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[172] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[171] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[170] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[169] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[168] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[167] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[166] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[165] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[164] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[163] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[162] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[161] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[160] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[159] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[158] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[157] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[156] in module aes256_core is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 3460.723 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 3460.723 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 3460.723 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 3460.723 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3460.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:55 ; elapsed = 00:00:37 . Memory (MB): peak = 3460.723 ; gain = 0.000
+13 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:00:43 . Memory (MB): peak = 3460.723 ; gain = 0.000
+write_schematic -format pdf -orientation portrait {D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/schematic.pdf}
+D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/schematic.pdf
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a200tffg1156-3
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 3460.723 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2025.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3460.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 3460.723 ; gain = 0.000
+report_power -name {power_1}
+Command: report_power -name power_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+1 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 3732.465 ; gain = 271.742
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  1 13:58:09 2025...

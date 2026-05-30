@@ -1,0 +1,21 @@
+2️⃣ Updated Abstract
+
+Data security is critical in modern digital communication systems. Cryptography provides the most reliable protection for sensitive information. Among cryptographic techniques, Advanced Encryption Standard (AES) is widely recognized for secure encryption, while SHA3-512 (Keccak) ensures data integrity through strong hashing.
+
+This project proposes an advanced hybrid cryptography system that integrates AES encryption with SHA3-512 hashing to produce highly secure, authenticated ciphertext. The design is fully implemented in pure Verilog for FPGA deployment on the Artix-7 family using the Vivado tool. Key features include:
+
+Configurable AES key sizes (128, 192, 256 bits)
+
+Configurable SHA3 hash lengths (224, 256, 384, 512 bits)
+
+Pipelined architecture for high throughput
+
+AXI/FIFO-based streaming interface for continuous data processing
+
+Optional HMAC mode for authentication
+
+Resource-efficient design with clock gating and LUT/FF optimization
+
+The architecture is synthesized, simulated, and validated in Vivado, yielding a high-performance, low-area cryptographic processor suitable for real-time secure communications.
+
+Keywords: AES, SHA3-512, Hybrid Cryptography, FPGA, Vivado, Pipelined Architecture, AXI Interface, HMAC, Artix-7.

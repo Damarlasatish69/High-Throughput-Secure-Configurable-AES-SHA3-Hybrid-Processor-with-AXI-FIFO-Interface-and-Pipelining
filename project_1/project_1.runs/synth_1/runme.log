@@ -1,0 +1,306 @@
+
+*** Running vivado
+    with args -log hybrid_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hybrid_top.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Mon Oct 27 00:02:08 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source hybrid_top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.srcs/utils_1/imports/synth_1/hybrid_top.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.srcs/utils_1/imports/synth_1/hybrid_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top hybrid_top -part xc7a200tffg1156-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7492
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1097.492 ; gain = 495.570
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hybrid_top' [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v:369]
+INFO: [Synth 8-6157] synthesizing module 'aes256_core' [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/aes256_ip_wrapper.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'aes256_core' (0#1) [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/aes256_ip_wrapper.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sha3_512_core' [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/sha3_512_ip_wrapper.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sha3_512_core' (0#1) [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/sha3_512_ip_wrapper.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hybrid_top' (0#1) [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v:369]
+WARNING: [Synth 8-6014] Unused sequential element aes_ce_reg was removed.  [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v:421]
+WARNING: [Synth 8-6014] Unused sequential element sha_ce_reg was removed.  [D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/hybrid_top.v:422]
+WARNING: [Synth 8-7129] Port key[255] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[254] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[253] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[252] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[251] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[250] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[249] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[248] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[247] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[246] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[245] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[244] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[243] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[242] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[241] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[240] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[239] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[238] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[237] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[236] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[235] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[234] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[233] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[232] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[231] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[230] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[229] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[228] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[227] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[226] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[225] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[224] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[223] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[222] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[221] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[220] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[219] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[218] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[217] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[216] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[215] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[214] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[213] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[212] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[211] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[210] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[209] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[208] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[207] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[206] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[205] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[204] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[203] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[202] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[201] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[200] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[199] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[198] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[197] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[196] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[195] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[194] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[193] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[192] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[191] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[190] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[189] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[188] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[187] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[186] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[185] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[184] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[183] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[182] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[181] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[180] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[179] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[178] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[177] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[176] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[175] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[174] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[173] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[172] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[171] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[170] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[169] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[168] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[167] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[166] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[165] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[164] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[163] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[162] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[161] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[160] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[159] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[158] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[157] in module aes256_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port key[156] in module aes256_core is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1204.355 ; gain = 602.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1204.355 ; gain = 602.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tffg1156-3
+INFO: [Device 21-403] Loading part xc7a200tffg1156-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1204.355 ; gain = 602.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1204.355 ; gain = 602.434
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input    128 Bit         XORs := 1     
++---Registers : 
+	              512 Bit    Registers := 3     
+	              128 Bit    Registers := 3     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.293 ; gain = 824.371
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1442.098 ; gain = 840.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 1442.098 ; gain = 840.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |   130|
+|3     |LUT3 |     1|
+|4     |LUT4 |     2|
+|5     |FDCE |   774|
+|6     |FDPE |     1|
+|7     |IBUF |   259|
+|8     |OBUF |   642|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------+--------------+------+
+|      |Instance   |Module        |Cells |
++------+-----------+--------------+------+
+|1     |top        |              |  1810|
+|2     |  aes_inst |aes256_core   |   386|
+|3     |  sha_inst |sha3_512_core |   260|
++------+-----------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 259 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1664.539 ; gain = 1062.617
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1678.680 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1801.324 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: be312b8b
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1801.324 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/SATHISH VLSI Projects/AES-SHA-512 Advanced/project_1/project_1.runs/synth_1/hybrid_top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file hybrid_top_utilization_synth.rpt -pb hybrid_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 27 00:03:11 2025...

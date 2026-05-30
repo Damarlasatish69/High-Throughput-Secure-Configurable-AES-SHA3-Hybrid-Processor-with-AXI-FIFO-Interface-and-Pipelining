@@ -1,0 +1,123 @@
+1️⃣ Project Title
+
+“High-Throughput Secure AES/SHA3-512 Hybrid Cryptography Processor with Configurable Key and Hash Modes on FPGA”
+
+2️⃣ Updated Abstract
+
+Data security is critical in modern digital communication systems. Cryptography provides the most reliable protection for sensitive information. Among cryptographic techniques, Advanced Encryption Standard (AES) is widely recognized for secure encryption, while SHA3-512 (Keccak) ensures data integrity through strong hashing.
+
+This project proposes an advanced hybrid cryptography system that integrates AES encryption with SHA3-512 hashing to produce highly secure, authenticated ciphertext. The design is fully implemented in pure Verilog for FPGA deployment on the Artix-7 family using the Vivado tool. Key features include:
+
+Configurable AES key sizes (128, 192, 256 bits)
+
+Configurable SHA3 hash lengths (224, 256, 384, 512 bits)
+
+Pipelined architecture for high throughput
+
+AXI/FIFO-based streaming interface for continuous data processing
+
+Optional HMAC mode for authentication
+
+Resource-efficient design with clock gating and LUT/FF optimization
+
+The architecture is synthesized, simulated, and validated in Vivado, yielding a high-performance, low-area cryptographic processor suitable for real-time secure communications.
+
+Keywords: AES, SHA3-512, Hybrid Cryptography, FPGA, Vivado, Pipelined Architecture, AXI Interface, HMAC, Artix-7.
+
+3️⃣ Module List (Advanced & Complete)
+Module Name	Function
+aes_core.v	Implements AES encryption with configurable key size (128/192/256)
+aes_key_schedule.v	Generates round keys for AES encryption based on selected key size
+sha3_core.v	Implements SHA3 Keccak hash with selectable hash length (224/256/384/512)
+hmac_sha3.v	Optional module for HMAC authentication using SHA3
+hybrid_top.v	Top-level module integrating AES + SHA3 + HMAC + control FSM
+control_unit.v	FSM to control data flow, pipelining, and mode selection
+axi_fifo_interface.v	AXI4 or FIFO-based streaming interface for continuous data input/output
+pipeliner.v	Handles pipelining registers for AES rounds and SHA3 permutations
+tb_hybrid.v	Testbench for validating full hybrid system functionality
+utils.v	Utility modules like multiplexer, register banks, and random mask generator (for security enhancements)
+
+
+
+
+
+Absolutely! Let’s compare your original basepaper project (AES + SHA3-512) with the advanced extension I suggested and highlight the real-time relevance. I’ll break it down clearly.
+
+1️⃣ Basepaper Project Summary
+
+Abstract Highlights:
+
+Implements AES + SHA3-512 hybrid cryptography.
+
+Focuses on data security and authentication.
+
+Hardware implemented on Artix-7 FPGA.
+
+Area savings reported: LUT 18.49%, FF 0.83%, IO 3.8%.
+
+Tool: Vivado 2017.2.
+
+Limitations / Base Features:
+
+Feature	Basepaper Status	Limitation
+AES key size	Likely fixed (probably AES-128)	Not configurable; less flexible
+SHA3 hash length	Fixed at 512 bits	Cannot use smaller/larger hashes
+Pipelining	Not explicitly mentioned	Lower throughput
+Streaming interface	None	Works only on single-block inputs
+Authentication	Only AES+SHA3 output	No HMAC or advanced authentication
+Security enhancements	Standard	No side-channel attack resistance
+System integration	Standalone module	Cannot interface easily with other IPs (like processor)
+
+Real-Time Uses (Basepaper Level):
+
+Encrypt and hash small fixed-size data blocks.
+
+Good for offline secure storage or small FPGA crypto demos.
+
+Limited throughput and scalability for real-time high-speed communication.
+
+2️⃣ Advanced Extension Summary
+
+Updated Abstract Features:
+
+AES configurable key sizes (128/192/256).
+
+SHA3 configurable hash lengths (224/256/384/512).
+
+Pipelined architecture for high throughput.
+
+AXI/FIFO streaming interface for continuous data.
+
+Optional HMAC for authentication.
+
+Low-power / resource optimization (clock gating, LUT/FF optimization).
+
+Side-channel attack resistance (masking/randomization).
+
+Fully modular and parameterized in pure Verilog.
+
+Real-Time Uses (Advanced Level):
+
+Use Case	How Advanced Extension Helps
+Secure communication	Continuous data streams via AXI/FIFO; high throughput
+IoT / Embedded systems	Low-area, low-power design suitable for real devices
+Cloud / Edge encryption	HMAC + AES+SHA3 combo ensures data integrity and confidentiality
+Adaptive security	Configurable AES/SHA3 modes allow trade-off between speed and security
+High-speed FPGA crypto modules	Pipelined AES + SHA3 cores enable multi-Gbps encryption/hash rates
+3️⃣ Key Updates / Differences
+Aspect	Basepaper	Advanced Extension	Real-Time Impact
+AES Key	Fixed (likely 128-bit)	Configurable 128/192/256	Flexibility for stronger encryption
+SHA3	Fixed 512-bit	Configurable 224/256/384/512	Allows performance/security trade-off
+Pipelining	Not included	Full pipelining	Higher throughput for streaming data
+Interface	Simple I/O	AXI/FIFO interface	Real-time communication with processors or memory
+Authentication	Implicit	Optional HMAC	Stronger integrity verification
+Security	Standard	Masking/randomization	Resistance against side-channel attacks
+Resource Optimization	Moderate	LUT/FF/IO optimized	Fits FPGA resource constraints better
+Modularity	Single block	Fully modular	Easier integration and extension
+
+
+✅ Summary
+
+Basepaper project: Good for learning AES+SHA3 FPGA implementation and small offline demos.
+
+Advanced extension: Suitable for real-time secure systems, high-speed communication, IoT/embedded applications, and research-level FPGA cryptography projects.

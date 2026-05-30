@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Oct 22 10:46:04 2025
+# Process ID         : 3604
+# Current directory  : D:/16x8 RAM Module/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25168 D:\16x8 RAM Module\project_1\project_1.xpr
+# Log file           : D:/16x8 RAM Module/project_1/vivado.log
+# Journal file       : D:/16x8 RAM Module/project_1\vivado.jou
+# Running On         : DESKTOP-FCS0GRK
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 5 7530U with Radeon Graphics         
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16483 MB
+# Swap memory        : 4831 MB
+# Total Virtual      : 21315 MB
+# Available Virtual  : 1996 MB
+#-----------------------------------------------------------
+start_guioopen_project {D:/16x8 RAM Module/project_1/project_1.xpr}uupdate_compile_order -fileset sources_1launch_simulation
+source tb_fifo_dual_port.tcl
+close_sim

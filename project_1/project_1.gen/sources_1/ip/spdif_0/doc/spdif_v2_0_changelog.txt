@@ -1,0 +1,341 @@
+2025.1:
+ * Version 2.0 (Rev. 32)
+ * General: Updated IP Catalog taxonomy structure. This change has no impact to the IP.
+ * General: Packaging update for example design
+ * General: Reduced number of internal subcores used, no functional change
+ * Revision change in one or more subcores
+
+2024.2.2:
+ * Version 2.0 (Rev. 31)
+ * No changes
+
+2024.2.1:
+ * Version 2.0 (Rev. 31)
+ * Revision change in one or more subcores
+
+2024.2:
+ * Version 2.0 (Rev. 30)
+ * General: Minor Fixes
+ * Revision change in one or more subcores
+
+2024.1.2:
+ * Version 2.0 (Rev. 29)
+ * No changes
+
+2024.1.1:
+ * Version 2.0 (Rev. 29)
+ * No changes
+
+2024.1:
+ * Version 2.0 (Rev. 29)
+ * General: IP packaging adjustments to address warnings from IP Packager integrity check
+ * Revision change in one or more subcores
+
+2023.2.2:
+ * Version 2.0 (Rev. 28)
+ * No changes
+
+2023.2.1:
+ * Version 2.0 (Rev. 28)
+ * No changes
+
+2023.2:
+ * Version 2.0 (Rev. 28)
+ * General: Rebrand to AMD copyright information
+ * Revision change in one or more subcores
+
+2023.1.2:
+ * Version 2.0 (Rev. 27)
+ * No changes
+
+2023.1.1:
+ * Version 2.0 (Rev. 27)
+ * No changes
+
+2023.1:
+ * Version 2.0 (Rev. 27)
+ * General: Fix for Versalnet Series Devices example desgin generation
+ * Revision change in one or more subcores
+
+2022.2.2:
+ * Version 2.0 (Rev. 26)
+ * No changes
+
+2022.2.1:
+ * Version 2.0 (Rev. 26)
+ * No changes
+
+2022.2:
+ * Version 2.0 (Rev. 26)
+ * No changes
+
+2022.1.2:
+ * Version 2.0 (Rev. 26)
+ * No changes
+
+2022.1.1:
+ * Version 2.0 (Rev. 26)
+ * No changes
+
+2022.1:
+ * Version 2.0 (Rev. 26)
+ * Revision change in one or more subcores
+
+2021.2.2:
+ * Version 2.0 (Rev. 25)
+ * No changes
+
+2021.2.1:
+ * Version 2.0 (Rev. 25)
+ * No changes
+
+2021.2:
+ * Version 2.0 (Rev. 25)
+ * Revision change in one or more subcores
+
+2021.1.1:
+ * Version 2.0 (Rev. 24)
+ * No changes
+
+2021.1:
+ * Version 2.0 (Rev. 24)
+ * General: Bug Fixes
+
+2020.3:
+ * Version 2.0 (Rev. 23)
+ * No changes
+
+2020.2.2:
+ * Version 2.0 (Rev. 23)
+ * No changes
+
+2020.2.1:
+ * Version 2.0 (Rev. 23)
+ * No changes
+
+2020.2:
+ * Version 2.0 (Rev. 23)
+ * No changes
+
+2020.1.1:
+ * Version 2.0 (Rev. 23)
+ * No changes
+
+2020.1:
+ * Version 2.0 (Rev. 23)
+ * General: Increased the tolerance towards pulse width calculation
+
+2019.2.2:
+ * Version 2.0 (Rev. 22)
+ * No changes
+
+2019.2.1:
+ * Version 2.0 (Rev. 22)
+ * No changes
+
+2019.2:
+ * Version 2.0 (Rev. 22)
+ * Revision change in one or more subcores
+
+2019.1.3:
+ * Version 2.0 (Rev. 21)
+ * No changes
+
+2019.1.2:
+ * Version 2.0 (Rev. 21)
+ * No changes
+
+2019.1.1:
+ * Version 2.0 (Rev. 21)
+ * No changes
+
+2019.1:
+ * Version 2.0 (Rev. 21)
+ * Bug Fix: Status register updates when sample rate changes
+ * Other: Updates to reset logic to handle CDC
+ * Other: Added Versal support
+ * Revision change in one or more subcores
+
+2018.3.1:
+ * Version 2.0 (Rev. 20)
+ * No changes
+
+2018.3:
+ * Version 2.0 (Rev. 20)
+ * Bug Fix: Resolved CDC Crossing Warnings
+ * Other: TID width updated to six bits
+ * Revision change in one or more subcores
+
+2018.2:
+ * Version 2.0 (Rev. 19)
+ * No changes
+
+2018.1:
+ * Version 2.0 (Rev. 19)
+ * Bug Fix: Fixed Channel Status Bits for Channel 0
+ * Feature Enhancement: A new interrupt has been added in SPDIF RX to indicate a change in Channel Status data
+ * Feature Enhancement: All the registers bits for Channel user data, Channel Status data have been updated to report value in "31 downto 0" format
+ * Other: IP updated to use XPM FIFO
+ * Other: RX configuration provides a reference Fs output
+ * Other: IP files are now delivered as encrypted sources. There is no need for a license.
+ * Revision change in one or more subcores
+
+2017.4:
+ * Version 2.0 (Rev. 18)
+ * Revision change in one or more subcores
+
+2017.3:
+ * Version 2.0 (Rev. 17)
+ * General: IP updated to use Fifo Generator v13.2
+ * General: Updates to IP XDC. No Functional changes
+ * Revision change in one or more subcores
+
+2017.2:
+ * Version 2.0 (Rev. 16)
+ * Revision change in one or more subcores
+
+2017.1:
+ * Version 2.0 (Rev. 15)
+ * General: Updated example design subcore version. No Functional changes
+ * Revision change in one or more subcores
+
+2016.4:
+ * Version 2.0 (Rev. 14)
+ * Revision change in one or more subcores
+
+2016.3:
+ * Version 2.0 (Rev. 13)
+ * General: No functional changes
+ * Revision change in one or more subcores
+
+2016.2:
+ * Version 2.0 (Rev. 12)
+ * Revision change in one or more subcores
+
+2016.1:
+ * Version 2.0 (Rev. 11)
+ * Helper core version fifo_generator_v13_1 update and safety circuit enablement for safe fifo reset operation. No other functional changes.
+
+2015.4.2:
+ * Version 2.0 (Rev. 10)
+ * No changes
+
+2015.4.1:
+ * Version 2.0 (Rev. 10)
+ * No changes
+
+2015.4:
+ * Version 2.0 (Rev. 10)
+ * Revision change in one or more subcores
+
+2015.3:
+ * Version 2.0 (Rev. 9)
+ * Example design update
+ * Constraints updated for FIFO changes
+ * IP revision number added to HDL module, library, and include file names, to support designs with both locked and upgraded IP instances
+ * Revision change in one or more subcores
+
+2015.2.1:
+ * Version 2.0 (Rev. 8)
+ * No changes
+
+2015.2:
+ * Version 2.0 (Rev. 8)
+ * No changes
+
+2015.1:
+ * Version 2.0 (Rev. 8)
+ * Enabled out-of-context clock frequency setting by adding FREQ_HZ parameter to all clocks
+ * Supported devices and production status are now determined automatically, to simplify support for future devices
+
+2014.4.1:
+ * Version 2.0 (Rev. 7)
+ * No changes
+
+2014.4:
+ * Version 2.0 (Rev. 7)
+ * Encrypted source files are concatenated together to reduce the number of files and to reduce simulator compile time
+ * AXI register interface ready signal generation updated as per axi_lite_ipif update.
+
+2014.3:
+ * Version 2.0 (Rev. 6)
+ * Modified to use new sub-cores in place of proc_common,no functional changes
+
+2014.2:
+ * Version 2.0 (Rev. 5)
+ * Updated Example design XDC for timing DRC,no functional changes
+
+2014.1:
+ * Version 2.0 (Rev. 4)
+ * Added core xdc constraints including helper core (fifo_generator) constraints
+ * Internal device family name change, no functional changes
+ * Netlists created by write_verilog and write_vhdl are IEEE P1735 encrypted, with keys for supported simulators so that netlist simulation can still be done
+ * Enable third party synthesis tools to read encrypted netlists (but not source HDL)
+ * Example design update to make it synthesizable
+ * Virtex UltraScale Pre-Production support
+
+2013.4:
+ * Version 2.0 (Rev. 3)
+ * Updated rtl files to refer sub cores from central area instead of local files
+ * Kintex UltraScale Pre-Production support added
+
+2013.3:
+ * Version 2.0 (Rev. 2)
+ * Reduced warnings in synthesis and simulation
+ * Enhanced support for IP Integrator
+ * Added support for Cadence IES and Synopsys VCS simulators
+ * Updated synchronizers for clock domain crossing to reduce Mean Time Between Failures (MTBF) from metastability
+
+2013.2:
+ * Version 2.0 (Rev. 1)
+ * Enable support for future devices
+
+2013.1:
+ * Version 2.0
+ * Upgraded the fifo_generator_v9_1 to fifo_generator_v10_0
+ * Updated the reset logic to make sure the streaming reset should not reset the configuration registers.
+
+(c) Copyright 2012 - 2025 Advanced Micro Devices, Inc. All rights reserved.
+
+This file contains confidential and proprietary information
+of AMD and is protected under U.S. and international copyright
+and other intellectual property laws.
+
+DISCLAIMER
+This disclaimer is not a license and does not grant any
+rights to the materials distributed herewith. Except as
+otherwise provided in a valid license issued to you by
+AMD, and to the maximum extent permitted by applicable
+law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+WITH ALL FAULTS, AND AMD HEREBY DISCLAIMS ALL WARRANTIES
+AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+(2) AMD shall not be liable (whether in contract or tort,
+including negligence, or under any other theory of
+liability) for any loss or damage of any kind or nature
+related to, arising under or in connection with these
+materials, including for any direct, or any indirect,
+special, incidental, or consequential loss or damage
+(including loss of data, profits, goodwill, or any type of
+loss or damage suffered as a result of any action brought
+by a third party) even if such damage or loss was
+reasonably foreseeable or AMD had been advised of the
+possibility of the same.
+
+CRITICAL APPLICATIONS
+AMD products are not designed or intended to be fail-
+safe, or for use in any application requiring fail-safe
+performance, such as life-support or safety devices or
+systems, Class III medical devices, nuclear facilities,
+applications related to the deployment of airbags, or any
+other applications that could lead to death, personal
+injury, or severe property or environmental damage
+(individually and collectively, "Critical
+Applications"). Customer assumes the sole risk and
+liability of any use of AMD products in Critical
+Applications, subject only to applicable laws and
+regulations governing limitations on product liability.
+
+THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+PART OF THIS FILE AT ALL TIMES.

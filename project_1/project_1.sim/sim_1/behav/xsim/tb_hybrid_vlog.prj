@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../aes256_ip_wrapper.v" \
+"../../../../../hybrid_top.v" \
+"../../../../../sha3_512_ip_wrapper.v" \
+"../../../../../tb_hybrid.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
